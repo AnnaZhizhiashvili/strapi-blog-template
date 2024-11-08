@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_letter_users",
+  "info": {
+    "singularName": "news-letter-user",
+    "pluralName": "news-letter-users",
+    "displayName": "NewsLetterUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
